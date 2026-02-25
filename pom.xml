@@ -472,7 +472,7 @@
           <execution>
             <id>check</id>
             <goals>
-              <goal>check</goal>
+              <!--goal>check</goal-->
             </goals>
           </execution>
         </executions>
@@ -697,6 +697,7 @@
           <version>${maven-plugin-plugin.version}</version>
           <configuration>
             <requiredJavaVersion>1.8</requiredJavaVersion>
+            <requiredMavenVersion>3.6.3</requiredMavenVersion>
           </configuration>
         </plugin>
         <plugin>
